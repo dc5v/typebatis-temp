@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "build",
+    "declaration": true,
+    "strict": false,
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "/src/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ESNext",
+    "lib": [
+      "es6",
+      "dom",
+      "ESNext"
+    ]
+  },
+  "lib": [
+    "ESNext"
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compileOnSave": false,
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/types"
+  ]
+}
